@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 1fr 25px;
+    grid-gap: 3px;
+    grid-template-areas: 
+    "h h"
+    "c c"
+    "c c"
+    "c c"
+    "c c"
+    "f f"
+}
+
+
+
+.header {
+    background-color: #ffd431;
+    grid-row: 1;
+}
+
+.main { 
+    background-color: #80c8bb;
+    grid-row: 2;
+}
+
+.widget { 
+    background-color: #289da1;
+    grid-row: 3;
+}
+
+.footer {
+    background-color: #ee8584;
+    grid-row: 4;
+}
+
+p {
+    color: darkslategray;
+    padding: 5px;
+}
